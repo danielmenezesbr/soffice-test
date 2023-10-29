@@ -1,6 +1,5 @@
 tasks:
-  - init: |
-      sudo brew install hyperfine
-      sudo apt install -y libreoffice
   - before: |
+       brew install hyperfine
+       sudo apt install -y libreoffice
        ./start.sh
