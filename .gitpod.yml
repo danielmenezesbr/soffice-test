@@ -1,5 +1,6 @@
 tasks:
   - before: |
+       sudo apt update
        brew install hyperfine
        sudo apt install -y libreoffice
        pip install -r requirements.txt
