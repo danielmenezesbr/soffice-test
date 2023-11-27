@@ -9,5 +9,3 @@ hyperfine --runs 30 --warmup 5 \
  --export-json result.json
 
  python plot_whisker.py result.json -o result.png
-
- npx http-server -y
